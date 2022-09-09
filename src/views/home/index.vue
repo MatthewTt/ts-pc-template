@@ -1,16 +1,7 @@
 <template>
   <div>
-    <div @click="test">home</div>
-    <div>home</div>
-    <div>home</div>
-    <div>home</div>
-    <div>home</div>
-    <div>home</div>
-    <div>home</div>
-    <div>home</div>
-    <div>home</div>
-    <div>home</div>
-    <div>home</div>
+    <el-button>刷</el-button>
+    <div @click="test">热门报告</div>
     <div>home</div>
     <div>home</div>
     <div>home</div>
@@ -42,5 +33,6 @@ onMounted(async () => {
 <style scoped>
 div {
   margin: 20px;
+  font-size: 26px;
 }
 </style>

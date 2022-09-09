@@ -1,7 +1,7 @@
 @import 'mixin.scss';
 @import 'reset.scss';
 @import 'variables.scss';
-
+@import "../transition/fade.scss";
 html,
 body,
 #app {
@@ -52,4 +52,11 @@ body,
       background-color: #fff;
     }
   }
+}
+
+
+/* 页面居中 */
+.page-center {
+  width: $page-max-width;
+  margin: 0 auto;
 }
