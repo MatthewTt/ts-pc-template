@@ -41,7 +41,6 @@
     "vite": "^3.0.0",
     "vite-plugin-cdn-import": "^0.3.5",
     "vite-plugin-compression": "^0.5.1",
-    "vite-plugin-imagemin": "^0.6.1",
     "vue-tsc": "^0.38.4"
   },
   "lint-staged": {

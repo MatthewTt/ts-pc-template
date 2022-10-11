@@ -3,7 +3,6 @@ import Components from 'unplugin-vue-components/vite'
 import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
 import viteCompression from 'vite-plugin-compression'
 import { visualizer } from 'rollup-plugin-visualizer'
-import { configImageminPlugin } from './configImagePlugin'
 import { configCDNPlugin } from './configCDNPlugin'
 import { PluginOption } from 'vite'
 import AutoImport from 'unplugin-auto-import/vite'
@@ -40,7 +39,7 @@ export function createVitePlugins(env, isBuild: boolean) {
   if (isBuild) {
     // rollup-plugin-vite-imagemin
 
-    env.VITE_USE_IMAGEMIN && vitePlugins.push(configImageminPlugin())
+    // env.VITE_USE_IMAGEMIN && vitePlugins.push(configImageminPlugin())
     // rollup-plugin-gzip
     vitePlugins.push(viteCompression())
   }
